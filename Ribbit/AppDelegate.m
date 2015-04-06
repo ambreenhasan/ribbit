@@ -24,7 +24,7 @@
     NSDictionary *dictionary = [NSDictionary dictionaryWithContentsOfFile:[[NSBundle mainBundle] pathForResource:@"Keys" ofType:@"plist"]];
     NSString *applicationId = [dictionary objectForKey:@"parseApplicationId"];
     NSString *clientKey = [dictionary objectForKey:@"parseClientKey"];
-    NSstring *hockeyId = [dictionary objectForKey:@"hockeyId"];
+    NSString *hockeyId = [dictionary objectForKey:@"hockeyId"];
     
     // Initialize Parse.
     [Parse setApplicationId:applicationId

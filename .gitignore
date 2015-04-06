@@ -4,3 +4,7 @@ Ribbit/Keys.plist
 *~.nib
 
 build/
+
+
+Ribbit.xcworkspace/
+xcuserdata/cd ..
